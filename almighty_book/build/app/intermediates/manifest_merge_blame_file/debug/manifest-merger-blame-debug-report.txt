@@ -1,0 +1,373 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bottrion.almightybook.almighty_book"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <!--
+16     io.flutter.app.FlutterApplication is an android.app.Application that
+17         calls FlutterMain.startInitialization(this); in its onCreate method.
+18         In most cases you can leave this as-is, but you if you want to provide
+19         additional functionality it is fine to subclass or reimplement
+20         FlutterApplication and put your custom class here.
+21    -->
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:8:5-79
+22-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:8:22-76
+23    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:9:5-81
+23-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:9:22-78
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:10:5-66
+24-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:10:22-63
+25    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+25-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:11:5-80
+25-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:11:22-78
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+26-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+27-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+28    <uses-permission android:name="android.permission.CAMERA" />
+28-->[:agora_rtc_engine] /Users/macbook/AndroidStudioProjects/almighty_book/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-65
+28-->[:agora_rtc_engine] /Users/macbook/AndroidStudioProjects/almighty_book/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:10:22-62
+29    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+29-->[:agora_rtc_engine] /Users/macbook/AndroidStudioProjects/almighty_book/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-71
+29-->[:agora_rtc_engine] /Users/macbook/AndroidStudioProjects/almighty_book/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:11:22-68
+30    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+30-->[:agora_rtc_engine] /Users/macbook/AndroidStudioProjects/almighty_book/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-80
+30-->[:agora_rtc_engine] /Users/macbook/AndroidStudioProjects/almighty_book/build/agora_rtc_engine/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-77
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:22:5-79
+31-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:22:22-76
+32    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+32-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:24:5-68
+32-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:26:5-82
+33-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:26:22-79
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+34-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+35
+36    <application
+36-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:12:5-54:19
+37        android:name="io.flutter.app.FlutterApplication"
+37-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:13:9-57
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.1.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/44b1706abe044cd42dcac5be863451ed/core-1.1.0/AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:icon="@mipmap/ic_launcher"
+40-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:15:9-43
+41        android:label="almighty_book" >
+41-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:14:9-38
+42        <activity
+42-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:16:9-48:20
+43            android:name="com.bottrion.almightybook.almighty_book.MainActivity"
+43-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:17:13-41
+44            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:20:13-163
+45            android:hardwareAccelerated="true"
+45-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:21:13-47
+46            android:launchMode="singleTop"
+46-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:18:13-43
+47            android:theme="@style/LaunchTheme"
+47-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:19:13-47
+48            android:windowSoftInputMode="adjustResize" >
+48-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:22:13-55
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+56-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:27:13-30:17
+57                android:name="io.flutter.embedding.android.NormalTheme"
+57-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:28:15-70
+58                android:resource="@style/NormalTheme" />
+58-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:29:15-52
+59            <!--
+60                 Displays an Android View that continues showing the launch screen
+61                 Drawable until Flutter paints its first frame, then this splash
+62                 screen fades out. A splash screen is useful to avoid any visual
+63                 gap between the end of Android's launch screen and the painting of
+64                 Flutter's first frame.
+65            -->
+66            <meta-data
+66-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:36:13-39:17
+67                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+67-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:37:15-79
+68                android:resource="@drawable/launch_background" />
+68-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:38:15-61
+69
+70            <intent-filter>
+70-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:40:13-43:29
+71                <action android:name="android.intent.action.MAIN" />
+71-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:41:17-68
+71-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:41:25-66
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:42:17-76
+73-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:42:27-74
+74            </intent-filter>
+75            <intent-filter>
+75-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:44:13-47:29
+76                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+76-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:45:17-69
+76-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:45:25-66
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:46:17-76
+78-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:46:27-73
+79            </intent-filter>
+80        </activity>
+81        <!--
+82             Don't delete the meta-data below.
+83             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+84        -->
+85        <meta-data
+85-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:51:9-53:33
+86            android:name="flutterEmbedding"
+86-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:52:13-44
+87            android:value="2" />
+87-->/Users/macbook/AndroidStudioProjects/almighty_book/android/app/src/main/AndroidManifest.xml:53:13-30
+88
+89        <provider
+89-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+90            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+90-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+91            android:authorities="com.bottrion.almightybook.almighty_book.flutter.image_provider"
+91-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+92            android:exported="false"
+92-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+93            android:grantUriPermissions="true" >
+93-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+94            <meta-data
+94-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+95                android:name="android.support.FILE_PROVIDER_PATHS"
+95-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+96                android:resource="@xml/flutter_image_picker_file_paths" />
+96-->[:image_picker] /Users/macbook/AndroidStudioProjects/almighty_book/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+97        </provider>
+98
+99        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+99-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+99-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-101
+100            <intent-filter>
+100-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+101                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+101-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+101-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+102            </intent-filter>
+103        </service>
+104        <service
+104-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-17:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:13:18-89
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:19.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7ca505ebf2a00cde63252c667290cf5d/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:38:13-37
+108            <meta-data
+108-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-16:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+109-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-127
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-82
+111            <meta-data
+111-->[:firebase_core] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+112-->[:firebase_core] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[:firebase_core] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:39:13-41:85
+115                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+115-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:40:17-119
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:41:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:32:13-34:85
+118                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+118-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:33:17-96
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:34:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7288bec5f13705201d1a367ddeb6e8c5/firebase-datatransport-17.0.3/AndroidManifest.xml:28:13-30:85
+121                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+121-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7288bec5f13705201d1a367ddeb6e8c5/firebase-datatransport-17.0.3/AndroidManifest.xml:29:17-115
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-datatransport:17.0.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7288bec5f13705201d1a367ddeb6e8c5/firebase-datatransport-17.0.3/AndroidManifest.xml:30:17-82
+123            <meta-data
+123-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/87892edabe3940311c57274d2e3f6cb3/play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+124                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+124-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/87892edabe3940311c57274d2e3f6cb3/play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/87892edabe3940311c57274d2e3f6cb3/play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-installations:16.3.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/d611221fdd0645bcd612cb14720d2682/firebase-installations-16.3.3/AndroidManifest.xml:17:13-19:85
+127                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+127-->[com.google.firebase:firebase-installations:16.3.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/d611221fdd0645bcd612cb14720d2682/firebase-installations-16.3.3/AndroidManifest.xml:18:17-127
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-installations:16.3.3] /Users/macbook/.gradle/caches/transforms-2/files-2.1/d611221fdd0645bcd612cb14720d2682/firebase-installations-16.3.3/AndroidManifest.xml:19:17-82
+129        </service>
+130
+131        <activity
+131-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:23:9-27:75
+132            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+132-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:24:13-93
+133            android:excludeFromRecents="true"
+133-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:25:13-46
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:26:13-37
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:27:13-72
+136        <!--
+137            Service handling Google Sign-In user revocation. For apps that do not integrate with
+138            Google Sign-In, this service will never be started.
+139        -->
+140        <service
+140-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:33:9-36:110
+141            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+141-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:34:13-89
+142            android:exported="true"
+142-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:35:13-36
+143            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+143-->[com.google.android.gms:play-services-auth:12.0.1] /Users/macbook/.gradle/caches/transforms-2/files-2.1/cf47d16c20cb1d8b573bc2515932d805/jetified-play-services-auth-12.0.1/AndroidManifest.xml:36:13-107
+144        <!--
+145             FirebaseMessagingService performs security checks at runtime,
+146             but set to not exported to explicitly avoid allowing another app to call it.
+147        -->
+148        <service
+148-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:28:9-35:19
+149            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+149-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:29:13-82
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:30:13-43
+151            android:exported="false" >
+151-->[com.google.firebase:firebase-messaging:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8a16378390f7d921ac1edec439261caf/jetified-firebase-messaging-20.3.0/AndroidManifest.xml:31:13-37
+152            <intent-filter android:priority="-500" >
+152-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:29
+153                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+153-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-78
+153-->[:firebase_messaging] /Users/macbook/AndroidStudioProjects/almighty_book/build/firebase_messaging/intermediates/library_manifest/debug/AndroidManifest.xml:10:25-75
+154            </intent-filter>
+155        </service>
+156
+157        <receiver
+157-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:37:9-44:20
+158            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+158-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:38:13-78
+159            android:exported="true"
+159-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:39:13-36
+160            android:permission="com.google.android.c2dm.permission.SEND" >
+160-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:40:13-73
+161            <intent-filter>
+161-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:41:13-43:29
+162                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+162-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:42:17-81
+162-->[com.google.firebase:firebase-iid:20.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/8f0f6ca5f55cac24b19028b1d1e50847/firebase-iid-20.3.0/AndroidManifest.xml:42:25-78
+163            </intent-filter>
+164        </receiver>
+165
+166        <activity
+166-->[com.google.android.gms:play-services-base:17.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/63333801825fa8fbd9c7151e28fb5ce4/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+167            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+167-->[com.google.android.gms:play-services-base:17.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/63333801825fa8fbd9c7151e28fb5ce4/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+168            android:exported="false"
+168-->[com.google.android.gms:play-services-base:17.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/63333801825fa8fbd9c7151e28fb5ce4/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+169            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+169-->[com.google.android.gms:play-services-base:17.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/63333801825fa8fbd9c7151e28fb5ce4/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+170
+171        <provider
+171-->[com.google.firebase:firebase-common:19.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7ca505ebf2a00cde63252c667290cf5d/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+172            android:name="com.google.firebase.provider.FirebaseInitProvider"
+172-->[com.google.firebase:firebase-common:19.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7ca505ebf2a00cde63252c667290cf5d/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+173            android:authorities="com.bottrion.almightybook.almighty_book.firebaseinitprovider"
+173-->[com.google.firebase:firebase-common:19.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7ca505ebf2a00cde63252c667290cf5d/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+174            android:exported="false"
+174-->[com.google.firebase:firebase-common:19.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7ca505ebf2a00cde63252c667290cf5d/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+175            android:initOrder="100" />
+175-->[com.google.firebase:firebase-common:19.3.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/7ca505ebf2a00cde63252c667290cf5d/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+176
+177        <receiver
+177-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+178            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+178-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+179            android:enabled="true"
+179-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+180            android:exported="false" >
+180-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+181        </receiver>
+182
+183        <service
+183-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+184            android:name="com.google.android.gms.measurement.AppMeasurementService"
+184-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+185            android:enabled="true"
+185-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+186            android:exported="false" />
+186-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+187        <service
+187-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+188            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+188-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+190            android:exported="false"
+190-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+191            android:permission="android.permission.BIND_JOB_SERVICE" />
+191-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/4445fb88bd03a7850a9d8e067866e333/play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+192
+193        <meta-data
+193-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/b804e4f161475c98f63d24fddfd09b2c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+194            android:name="com.google.android.gms.version"
+194-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/b804e4f161475c98f63d24fddfd09b2c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+195            android:value="@integer/google_play_services_version" />
+195-->[com.google.android.gms:play-services-basement:17.0.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/b804e4f161475c98f63d24fddfd09b2c/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+196
+197        <service
+197-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/691f405ee2a43c49782d0436545718c2/transport-backend-cct-2.2.0/AndroidManifest.xml:29:9-35:19
+198            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+198-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/691f405ee2a43c49782d0436545718c2/transport-backend-cct-2.2.0/AndroidManifest.xml:30:13-103
+199            android:exported="false" >
+199-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/691f405ee2a43c49782d0436545718c2/transport-backend-cct-2.2.0/AndroidManifest.xml:31:13-37
+200            <meta-data
+200-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/691f405ee2a43c49782d0436545718c2/transport-backend-cct-2.2.0/AndroidManifest.xml:32:13-34:39
+201                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+201-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/691f405ee2a43c49782d0436545718c2/transport-backend-cct-2.2.0/AndroidManifest.xml:33:17-94
+202                android:value="cct" />
+202-->[com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/691f405ee2a43c49782d0436545718c2/transport-backend-cct-2.2.0/AndroidManifest.xml:34:17-36
+203        </service>
+204        <service
+204-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/499c079fab7208ae8d0e71d397b932d2/transport-runtime-2.2.0/AndroidManifest.xml:26:9-30:19
+205            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+205-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/499c079fab7208ae8d0e71d397b932d2/transport-runtime-2.2.0/AndroidManifest.xml:27:13-117
+206            android:exported="false"
+206-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/499c079fab7208ae8d0e71d397b932d2/transport-runtime-2.2.0/AndroidManifest.xml:28:13-37
+207            android:permission="android.permission.BIND_JOB_SERVICE" >
+207-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/499c079fab7208ae8d0e71d397b932d2/transport-runtime-2.2.0/AndroidManifest.xml:29:13-69
+208        </service>
+209
+210        <receiver
+210-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/499c079fab7208ae8d0e71d397b932d2/transport-runtime-2.2.0/AndroidManifest.xml:32:9-34:40
+211            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+211-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/499c079fab7208ae8d0e71d397b932d2/transport-runtime-2.2.0/AndroidManifest.xml:33:13-132
+212            android:exported="false" />
+212-->[com.google.android.datatransport:transport-runtime:2.2.0] /Users/macbook/.gradle/caches/transforms-2/files-2.1/499c079fab7208ae8d0e71d397b932d2/transport-runtime-2.2.0/AndroidManifest.xml:34:13-37
+213    </application>
+214
+215</manifest>
